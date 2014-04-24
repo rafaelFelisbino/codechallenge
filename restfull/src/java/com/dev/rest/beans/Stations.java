@@ -12,54 +12,54 @@ package com.dev.rest.beans;
  */
 public class Stations {
     
-    private Integer id;
-    private Double latitude;
-    private Double longitude;
+    private String id;
+    private String latitude;
+    private String longitude;
     private String name;
     private String display_name;
-    private Integer zone;
-    private Integer total_lines;
-    private Integer rail;
+    private String zone;
+    private String total_lines;
+    private String rail;
 
     /**
      * @return the id
      */
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
     /**
      * @param id the id to set
      */
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 
     /**
      * @return the latitude
      */
-    public Double getLatitude() {
+    public String getLatitude() {
         return latitude;
     }
 
     /**
      * @param latitude the latitude to set
      */
-    public void setLatitude(Double latitude) {
+    public void setLatitude(String latitude) {
         this.latitude = latitude;
     }
 
     /**
      * @return the longitude
      */
-    public Double getLongitude() {
+    public String getLongitude() {
         return longitude;
     }
 
     /**
      * @param longitude the longitude to set
      */
-    public void setLongitude(Double longitude) {
+    public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
 
@@ -94,42 +94,42 @@ public class Stations {
     /**
      * @return the zone
      */
-    public Integer getZone() {
+    public String getZone() {
         return zone;
     }
 
     /**
      * @param zone the zone to set
      */
-    public void setZone(Integer zone) {
+    public void setZone(String zone) {
         this.zone = zone;
     }
 
     /**
      * @return the total_lines
      */
-    public Integer getTotal_lines() {
+    public String getTotal_lines() {
         return total_lines;
     }
 
     /**
      * @param total_lines the total_lines to set
      */
-    public void setTotal_lines(Integer total_lines) {
+    public void setTotal_lines(String total_lines) {
         this.total_lines = total_lines;
     }
 
     /**
      * @return the rail
      */
-    public Integer getRail() {
+    public String getRail() {
         return rail;
     }
 
     /**
      * @param rail the rail to set
      */
-    public void setRail(Integer rail) {
+    public void setRail(String rail) {
         this.rail = rail;
     }
     

@@ -12,7 +12,7 @@ package com.dev.rest.beans;
  */
 public class Routes {
     
-    private Integer line;
+    private String line;
     private String name;
     private String color;
     private String stripe;
@@ -20,14 +20,14 @@ public class Routes {
     /**
      * @return the line
      */
-    public Integer getLine() {
+    public String getLine() {
         return line;
     }
 
     /**
      * @param line the line to set
      */
-    public void setLine(Integer line) {
+    public void setLine(String line) {
         this.line = line;
     }
 
