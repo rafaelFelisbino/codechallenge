@@ -1,0 +1,10 @@
+/restfull/nbproject/private/
+/restfull/build/
+/restfull/dist/
+restfull/nbproject/genfiles.properties
+restfull/nbproject/project.properties
+restfull/build.xml
+restfull/nbproject/ant-deploy.xml
+restfull/nbproject/build-impl.xml
+restfull/nbproject/project.xml
+restfull/src/conf/MANIFEST.MF
