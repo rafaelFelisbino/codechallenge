@@ -24,7 +24,7 @@ public class Conexao {
 	}
 
 	public static void loadDriver() {
-		String driver = "com.mysql.jdbc.Driver";
+		String driver = "org.postgresql.Driver";
 		try {
 			Class.forName(driver);
 			System.out.println("Driver carregado com sucesso !!!!");
@@ -42,11 +42,11 @@ public class Conexao {
 
 	public Connection getConnection() {
 		String banco = "webservice";
-		String url = "jdbc:mysql://localhost:3306/" + banco;
+		String url = "jdbc:postgresql://localhost:5432/" + banco;
 		try {
 			System.out.println(url);
 			if (con == null || con.isClosed()) {
-				con = DriverManager.getConnection(url, "","");
+				con = DriverManager.getConnection(url, "postgres","root");
 				System.out.println("Conectado ao banco!!!!\nUsuario : " + "mySql");
 			}
 
